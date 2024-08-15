@@ -1,0 +1,28 @@
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cart {
+  background-color: #f8f8f8;
+  max-width: 360px;
+}
+
+.cart__inner {
+  padding: 5px 10px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.cart__inner h4 {
+  line-height: 15.6px;
+}
+
+.cart__inner p {
+  line-height: 17px;
+}
+/*# sourceMappingURL=styles.css.map */

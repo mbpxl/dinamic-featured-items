@@ -1,0 +1,23 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cart {
+  background-color: rgba(248, 248, 248, 1);
+  max-width: 360px;
+
+  &__inner {
+    padding: 5px 10px;
+    display: grid;
+
+    h4 {
+      line-height: 15.6px;
+    }
+
+    p {
+      line-height: 17px;
+    }
+  }
+}
